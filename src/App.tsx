@@ -1,26 +1,36 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { useLayoutEffect } from 'react'
+import { Route, Routes, useLocation } from 'react-router-dom'
+import Footer from './components/Footer'
+import Navbar from './components/Navbar'
+import About from './pages/About'
+import Contact from './pages/Contact'
+import Home from './pages/Home'
+import SingleComponent from './pages/SingleComponent'
 
 function App() {
+  const location = useLocation()
+
+  useLayoutEffect(() => {
+    // console.log(location)
+    if (location.pathname !== '/') window.scrollTo(0, 0)
+  }, [location.pathname])
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <>
+      <Navbar />
+
+      <main className='px-6 bg-hero-pattern'>
+        <Routes>
+          <Route path='/' element={<Home />} />
+          <Route path='about' element={<About />} />
+          <Route path='contact' element={<Contact />} />
+          <Route path='components/:id' element={<SingleComponent />} />
+        </Routes>
+      </main>
+
+      <Footer />
+    </>
+  )
 }
 
-export default App;
+export default App
