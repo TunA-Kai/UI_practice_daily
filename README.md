@@ -10,6 +10,8 @@
 
 - [React Router Dom: Scroll To Top on Route Change](https://stackoverflow.com/questions/70193712/how-to-scroll-to-top-on-route-change-with-react-router-dom-v6)
 
+- [Placeholders while the content loads](https://latteandcode.medium.com/react-placeholders-while-the-content-loads-dc8d08c85518)
+
 - The `required` attribute only works with default form actions. You'll need to
   do your own validation in the handler. Also, if you want the form's `onSubmit`
   to not reload the page then you need to invoke `preventDefault()` on the
