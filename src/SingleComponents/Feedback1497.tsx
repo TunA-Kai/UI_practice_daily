@@ -23,8 +23,8 @@ const Feedback1497: React.FC<Feedback1497Props> = ({}) => {
   const [emotion, setEmotion] = useState('good')
 
   return (
-    <div className='w-full h-full py-16 px-4 bg-blue-gray-200 flex items-center justify-center rounded-2xl lg:px-0'>
-      <form className='bg-blue-gray-50 shadow-lg p-12 rounded-xl'>
+    <div className='w-full h-full py-16 px-4 bg-slate-200 flex items-center justify-center rounded-2xl lg:px-0'>
+      <form className='bg-slate-50 shadow-lg p-12 rounded-xl'>
         <h3 className='font-serif font-bold text-2xl mb-3'>Give feedback</h3>
         <fieldset>
           <legend className='font-semibold'>
@@ -43,7 +43,7 @@ const Feedback1497: React.FC<Feedback1497Props> = ({}) => {
                   return (
                     <div
                       className={
-                        `bg-white p-4 flex flex-col justify-center items-center gap-3 border-2 border-blue-gray-200` +
+                        `bg-white p-4 flex flex-col justify-center items-center gap-3 border-2 border-slate-200` +
                         `${checked ? ' shadow-lg' : ' text-gray-400'}`
                       }
                     >
