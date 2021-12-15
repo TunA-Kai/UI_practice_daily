@@ -1,6 +1,10 @@
-# Problems
+# Live on Netlify
 
-- [How to enable JIT(Just in time mode) with create react app?](https://stackoverflow.com/questions/68619975/how-to-enable-jitjust-in-time-mode-with-create-react-app).
+https://ui-practice-daily.netlify.app/
+
+## Problems
+
+- [How to enable JIT(Just in time mode in Tailwind v2) with create react app?](https://stackoverflow.com/questions/68619975/how-to-enable-jitjust-in-time-mode-with-create-react-app).
 
 - [How do I add color to my svg image in react?](https://stackoverflow.com/questions/54519654/how-do-i-add-color-to-my-svg-image-in-react)
 

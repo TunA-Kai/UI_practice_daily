@@ -63,7 +63,7 @@ function Dropdown1498({}: DropdownProps) {
         </button>
       </form>
 
-      <div className='bg-gray-50 p-4 rounded-2xl ml-3 w-52 self-start shadow-lg'>
+      <div className='bg-gray-50 p-4 rounded-2xl ml-3 w-60 self-start shadow-lg'>
         <div className='mb-6 flex items-center'>
           <button>
             <BsArrowLeft className='text-2xl' />

@@ -17,7 +17,7 @@ function Navbar({}: NavbarProps) {
       className='flex justify-between items-center 
       pr-6 py-3 shadow-sm 
       fixed bg-gray-50 bg-opacity-50 backdrop-filter backdrop-blur-lg
-      w-full h-16 z-10'
+      w-full h-16 z-50'
     >
       <Link to='/' className='pl-6'>
         <Logo fill='#7C3AED' stroke='' />
