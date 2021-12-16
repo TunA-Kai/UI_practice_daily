@@ -2,10 +2,18 @@ import DonateCard1499 from './SingleComponents/DonateCard1499'
 import Dropdown1474 from './SingleComponents/Dropdown1474'
 import Dropdown1498 from './SingleComponents/Dropdown1498'
 import EventsList1473 from './SingleComponents/EventsList1473'
+import FAQ1477 from './SingleComponents/FAQ1477'
 import Feedback1497 from './SingleComponents/Feedback1497'
 import Search1487 from './SingleComponents/Search1487'
 
 const data = [
+  {
+    id: 1477,
+    imageUrl: 'https://www.uidesigndaily.com/uploads/1477/day_1477.png',
+    projectName: 'FAQ Section',
+    date: '16 Dec 2021',
+    component: <FAQ1477 />,
+  },
   {
     id: 1474,
     imageUrl: 'https://www.uidesigndaily.com/uploads/1474/day_1474.png',
