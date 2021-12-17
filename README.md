@@ -16,6 +16,8 @@ https://ui-practice-daily.netlify.app/
 
 - [Placeholders while the content loads](https://latteandcode.medium.com/react-placeholders-while-the-content-loads-dc8d08c85518)
 
+- [How to update package.json to latest version of each package?](https://stackoverflow.com/questions/65086800/how-to-update-package-json-to-latest-version-of-each-package)
+
 - The `required` attribute only works with default form actions. You'll need to
   do your own validation in the handler. Also, if you want the form's `onSubmit`
   to not reload the page then you need to invoke `preventDefault()` on the
